@@ -1,0 +1,120 @@
+/*======= begin shemework ======*/
+.shemework {
+  padding-top: 81px;
+  position: relative;
+  overflow: hidden;
+}
+
+.shemework__title {
+  font-size:rem(48px);
+  font-family:'museo_sans_cyrl900';
+  color: $yellow;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.shemework__content{
+  margin-top: 46px;
+}
+
+.shemework__left{
+  position: relative;
+  display: block;
+}
+
+.shemework__vertical {
+  position: relative;
+  margin-top: 26px;
+}
+.shemework__icon-blank,
+.shemework__icon-mail,
+.shemework__icon-document,
+.shemework__icon-computer{
+  position: absolute;
+}
+.shemework__icon-blank{
+  display: inline-block;
+  top: rem(120px);
+  right: 120%;
+  &:before{
+    position: absolute;
+    display: inline-block;
+    content: 'Мы заключаем договор';
+    width: 174px;
+    top: 24%;
+    left: rem(-45px);
+    font-family:'museo_sans_cyrl500';
+    font-size: rem(24px);
+    color: $grey;
+
+  }
+}
+
+.shemework__icon-mail{
+  top: rem(26px);
+  left: 85%;
+  &:before{
+    position: absolute;
+    display: inline-block;
+    content: 'Вы оставляете заявку';
+    width: 174px;
+    top: 14%;
+    left: -29px;
+    font-family:'museo_sans_cyrl500';
+    font-size: rem(24px);
+    color: $grey;
+  }
+}
+
+.shemework__icon-document{
+  bottom: rem(3px);
+  right: 115%;
+  &:before{
+    position: absolute;
+    display: inline-block;
+    content: 'Ваш бизнес
+процветает';
+    width: 174px;
+    top: 18%;
+    left: rem(-18px);
+    font-family:'museo_sans_cyrl500';
+    font-size: rem(24px);
+    color: $grey;
+
+  }
+}
+.shemework__icon-computer{
+  bottom: rem(130px);
+  left: 85%;
+  &:before{
+    position: absolute;
+    display: inline-block;
+    content: 'Мы выполняем
+работы';
+    width: 174px;
+    top: 24%;
+    left: rem(-30px);
+    font-family:'museo_sans_cyrl500';
+    font-size: rem(24px);
+    color: $grey;
+  }
+
+}
+.shemework__pic{
+  position: relative;
+  width: 349px;
+  height: 549px;
+  bottom: 24px;
+}
+
+
+.shemework__right-img{
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  bottom: rem(-44px);
+}
+
+
+
+/*======= end shemework ========*/

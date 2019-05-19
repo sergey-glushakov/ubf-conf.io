@@ -1,0 +1,138 @@
+/*======= begin content ======*/
+.text-yellow {
+  color: $yellow;
+}
+.text-grey {
+  color: $grey;
+}
+.btn {
+  position: relative;
+  font-size: rem(24px);
+  font-family:'museo_sans_cyrl900';
+  color: #fec15c;
+  text-transform: uppercase;
+  padding: 20px 75px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(254, 193, 92);
+  border-radius: 9px;
+  &:hover{
+    color: #007e97;
+    background: rgba($yellow, .75);
+  }
+}
+
+.footer__callback-btn {
+  display: inline-block;
+  font-size: rem(24px);
+  font-family:'museo_sans_cyrl900';
+  color: $grey;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 3px solid #333333;
+  padding-top: 21px;
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-bottom: 21px;
+  text-align: center;
+  width: 100%;
+  &:hover{
+    color:$yellow;
+    background-color: $grey;
+    transition: all .3s ease;
+    transition-delay: 0.1s;
+  }
+}
+.line__title {
+  display: block;
+  width: 166px;
+  height: 11px;
+  background-color: #007e97 ;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.down-arrow{
+  display: block;
+  text-align: center;
+  padding-bottom: 64px;
+}
+.down-arrow-link{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.features__triangle{
+  width: 0;
+  height: 0;
+  border-left: 94px solid transparent;
+  border-right: 94px solid transparent;
+  border-top: 94px solid $white;
+  margin: 0 auto;
+}
+.reviews__triangle{
+  width: 0;
+  height: 0;
+  border-left: 82px solid transparent;
+  border-right: 82px solid transparent;
+  border-top: 75px solid $white;
+  margin: 0 auto;
+}
+  /*======= begin icons ink ======*/
+.money_ink{
+  width: 57px;
+  height: 57px;
+}
+.handshake_ink{
+  width: 56px;
+  height: 48px;
+}
+.business_ink{
+  width: 52px;
+  height: 58px;
+}
+.safety_ink{
+  width: 57px;
+  height: 58px;
+}
+.money_ink,
+.handshake_ink,
+.business_ink,
+.safety_ink
+{
+  fill:$grey;
+}
+
+/*======= end icons ink ========*/
+.hvr-sweep-to-top:before {
+  background: $yellow;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 10px 16px;
+}
+.swiper-pagination-bullet{
+  width: 21px;
+  height: 21px;
+  background-color: #fff;
+  opacity: 1;
+  margin-right: 39px;
+}
+.swiper-pagination-bullet-active{
+  width: 21px;
+  height: 21px;
+  background-color: $yellow;
+  opacity: 1;
+}
+.green {
+  background-color: lightgreen;
+}
+.red {
+  background-color: lightcoral;
+}
+.blue {
+  background-color: lightseagreen;
+}
+
+
+/*======= end content ========*/

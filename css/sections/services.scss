@@ -1,0 +1,81 @@
+/*======= begin services ======*/
+.services{
+  padding-top: 80px;
+  padding-bottom: 72px;
+}
+.services__title{
+  font-size: rem(48px);
+  font-family:'museo_sans_cyrl900';
+  color: $yellow;
+  text-align: center;
+  text-transform: uppercase;
+}
+.services__list{
+  margin-top: 37px;
+  margin-bottom: 62px;
+}
+.services__pic{
+  display: block;
+  width: 226px;
+  height: 226px;
+  margin: 0 auto;
+}
+.services__item{
+  display: block;
+  margin-bottom: 15px;
+}
+.services__item-title{
+  font-size: rem(36px);
+  font-family:'museo_sans_cyrl700';
+  color: $grey;
+  text-align: center;
+}
+.services__item-price{
+  font-size: rem(36px);
+  font-family:'museo_sans_cyrl900';
+  color: $blue;
+  text-align: center;
+}
+.services__buttons{
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.services__buttons-download {
+  display: inline-block;
+  border: 3px solid $grey;
+  border-radius: 10px;
+  background-color: transparent;
+  color: $grey;
+  font-size: 24px;
+  font-family:'museo_sans_cyrl900';
+  padding: 21px 33px;
+  width: 100%;
+  //margin-right: 30px;
+  &:hover{
+    color: $yellow;
+    border: 3px solid $yellow;
+    transition: all .3s ease;
+    transition-delay: 0.1s;
+  }
+
+}
+.services__buttons-consult{
+  display: inline-block;
+  border: 3px solid $yellow;
+  border-radius: 10px;
+  background-color: $yellow;
+  color: $grey;
+  font-size: 24px;
+  font-family:'museo_sans_cyrl900';
+  padding: 22px 56px 21px 55px;
+  width: 100%;
+  &:hover{
+    border: 3px solid $grey;
+    background-color: $grey;
+    color: $yellow;
+    transition: all .3s ease;
+    transition-delay: 0.1s;
+  }
+}
+/*======= end services ========*/

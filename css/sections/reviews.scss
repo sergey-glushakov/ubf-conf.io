@@ -1,0 +1,100 @@
+/*======= begin reviews ======*/
+.reviews{
+  background: url("/img/bg/bg__reviews.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 638px;
+  position: relative;
+  }
+
+.reviews__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba($grey, .9);
+}
+.reviews__title {
+  font-size:rem(48px);
+  font-family:'museo_sans_cyrl900';
+  text-transform: uppercase;
+  color: $white;
+  text-align: center;
+  margin-top: 42px;
+}
+.reviews__slider-pic {
+  display: inline-block;
+  width: 265px;
+  height: 265px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 14px solid rgba($border, 1) ;
+  background: url("/img/content/man.jpg") center center no-repeat;
+  background-size: cover;
+  margin-top: 49px;
+
+}
+.reviews__slider-img {
+  width: 100%;
+  height: 100%;
+}
+
+.reviews__slider-title {
+  font-size:rem(30px);
+  font-family:'museo_sans_cyrl900';
+  color: $yellow;
+}
+.reviews__slider-descr {
+  font-size:rem(24px);
+  font-family:'museo_sans_cyrl700';
+  color: $white;
+}
+.reviews__slider-author {
+  font-size:rem(24px);
+  font-family:'museo_sans_cyrl700';
+  color: $white;
+  text-align: right;
+}
+.reviews__slider-title{
+  margin-top: 87px;
+  margin-bottom: 20px;
+}
+
+.reviews__slider-controls{
+  display: block;
+  left: 50%;
+  right: 50%;
+  width: 100%;
+  transform: translate(-50%,-50%);
+  height: 21px;
+  margin-top: 15px;
+}
+.reviews__slider-controls-item {
+  display: inline-block;
+  margin-right: 32px;
+  &:last-child{
+    margin-right: 0px;
+  }
+}
+
+.reviews__slider-controls-link{
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.link_active {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: $yellow;
+}
+.reviews__slider-text {
+  width: 63%;
+  float: right;
+}
+/*======= end reviews ========*/

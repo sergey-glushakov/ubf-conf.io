@@ -1,0 +1,60 @@
+/*======= begin features ======*/
+.features{
+  background: url("/img/bg/bg__features.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.features__top{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($yellowlight, .75);
+}
+.features__title{
+  font-size: rem(48px);
+  font-family:'museo_sans_cyrl900';
+  text-transform: uppercase;
+  color:$white;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.features__descr{
+  margin-top: 54px;
+  margin-bottom: 84px;
+}
+.features__link {
+  display: inline-block;
+}
+.features__item-icon{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  vertical-align: baseline;
+  width: 25%;
+}
+.features__item-title{
+  font-size: rem(18px);
+  font-family:'museo_sans_cyrl900';
+  color: $grey;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 75%;
+  float: right;
+  vertical-align: middle;
+}
+
+.features__item-desc{
+  font-size: rem(18px);
+  font-family:'museo_sans_cyrl700';
+  color: $grey;
+  margin-top: 38px;
+}
+
+.features__bottom{
+  background-color: rgba($grey, .9);
+}
+
+/*======= end features ========*/

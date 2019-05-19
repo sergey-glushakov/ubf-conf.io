@@ -1,0 +1,72 @@
+/*======= begin header ======*/
+.header{
+  padding: 15px 0px;
+  border-bottom: 1px solid #7c7675;
+}
+.logo__title{
+    font-size: rem(42px);
+    font-family: "museo_sans_cyrl900";
+    color: #0b91ac;
+}
+.logo__subtitle {
+  font-size: rem(20px);
+  color: #fec15c;
+}
+
+.menu__list {
+  text-align: justify;
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+  }
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu__link {
+  display: block;
+  font-family: 'museo_sans_cyrl300';
+  padding-top: rem(22px);
+  font-size: rem(22px);
+  line-height:rem(7px);
+  color: white;
+  &:after{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+  }
+  &:hover{
+    color: $yellow;
+    &:after{
+      content: '';
+      display: inline-block;
+      background: url("/img/decor/dashed__sector.png") repeat-x;
+      height: 1px;
+      width: 100%;
+    }
+  }
+}
+.contacts {
+  float: right;
+}
+.contacts__tel {
+  color: #fec15c;
+  font-size: rem(28px);
+  font-family:'museo_sans_cyrl900';
+  text-align: right;
+}
+.contacts__mail{
+  color: white;
+  font-family:'museo_sans_cyrl700';
+  font-size: rem(28px);
+  text-align: right;
+}
+
+
+/*======= end header ========*/

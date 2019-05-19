@@ -1,0 +1,70 @@
+/*======= begin outsorcing ======*/
+.outsorcing {
+  background: url("/img/bg/bg_out.jpg") center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height:700px;
+  position: relative;
+
+  
+  &__oval {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url("/img/bg/bg__after.png") 0 bottom no-repeat;
+    background-size: contain;
+  }
+}
+
+
+.outsorcing__title{
+  font-size: rem(60px);
+  font-family:'museo_sans_cyrl900';
+  color: #fec15c;
+  text-align: center;
+  margin-top: 69px;
+  line-height: 68px;
+  text-transform: uppercase;
+}
+.outsorcing__subtitle{
+  font-size: rem(60px);
+  font-family:'museo_sans_cyrl900';
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 31px;
+  text-transform: uppercase;
+}
+.outsorcing__sale, .outsorcing__sale-subtitle{
+  font-size:rem(48px);
+  text-align: center;
+  color: #ffffff;
+}
+.outsorcing__sale{
+  margin-top: 31px;
+}
+.outsorcing__btn{
+  margin-top: 18px;
+  margin-bottom: 68px;
+  text-align: center;
+}
+.outsorcing__btn-link {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: rem(24px);
+  font-family: 'museo_sans_cyrl900';
+  color: #fec15c;
+  text-transform: uppercase;
+  padding: 20px 75px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(254, 193, 92);
+  border-radius: 9px;
+  background-color: transparent;
+  &:hover{
+    color: $blue;
+  }
+}
+/*======= end outsorcing ========*/

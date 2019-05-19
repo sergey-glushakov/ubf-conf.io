@@ -1,0 +1,59 @@
+/*======= begin map ======*/
+.map {
+  position: relative;
+  height: 100%;
+}
+.yandex-map{
+  position: relative;
+  //background: url("/img/bg/map.png") center center no-repeat;
+  background-size: cover;
+  height: 630px;
+  z-index: 1;
+}
+.map__bottom {
+  background: url("/img/bg/bg__map2.png" ) center 0 no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 130px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 2;
+}
+.map__contacts-title{
+  font-size: 36px;
+  font-family:'museo_sans_cyrl900';
+  text-transform: uppercase;
+}
+.map__contacts{
+  display: inline-block;
+  float: right;
+  margin-top: rem(212px);
+}
+.map__contacts-title{
+  font-size:rem(36px);
+  line-height: rem(60px);
+  font-family:'museo_sans_cyrl900';
+  color: $grey;
+  margin-bottom: 10px;
+}
+.map__addr-icon, .map__tel-icon, .map__mail-icon{
+  display: inline-block;
+  width: 29px;
+  margin-right: 35px;
+  vertical-align: inherit;
+
+}
+
+.map__addr-text, .map__tel-text, .map__mail-text {
+  display: inline-block;
+  font-size: rem(30px);
+  line-height:rem(34px);
+  font-family:'museo_sans_cyrl700';
+  margin-bottom: 15px;
+  color: $grey;
+}
+
+
+
+/*======= end map ========*/

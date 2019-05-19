@@ -1,0 +1,35 @@
+/*======= begin footer ======*/
+footer {
+  background-color: $yellow;
+  padding-top:34px;
+  padding-bottom:30px;
+  position: relative;
+}
+
+.footer__copyright{
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.footer__copyright-ubf, .footer__copyright-dev{
+  display: inline-block;
+  font-size: rem(20px);
+  line-height:rem(30px);
+  font-family:'museo_sans_cyrl700';
+  color: $grey;
+}
+.dev{
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: $grey;
+}
+
+.logo__subtitle-grey {
+  color: $grey;
+  font-size: rem(21px);
+  font-family: 'museo_sans_cyrl700';
+}
+
+
+/*======= end footer ========*/

@@ -1,0 +1,526 @@
+/*======= begin media ======*/
+/* Для мобильных устройств */
+@media (min-width: 320px) AND (max-width: 543px) {
+  html {
+    font-size: 12px;
+  }
+  .logo{
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo__title {
+    font-size: 2.625rem;
+  }
+  .contacts {
+    display: none;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .footer__callback {
+    width: 100%;
+  }
+  .footer__copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu__item{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .menu__link{
+    text-align: center;
+  }
+
+  .team__desc{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .outsorcing__title,
+  .outsorcing__subtitle{
+    font-size: rem(48px);//60
+  }
+
+  .outsorcing__sale,
+  .outsorcing__sale-subtitle{
+    font-size:rem(36px);//48
+  }
+
+  .outsorcing__btn-link {
+    font-size: rem(20px);//24
+  }
+
+  .team__title{
+    font-size: rem(36px);//48
+  }
+  .team__content-pic {
+    display: none;
+  }
+  .features__title{
+    font-size: rem(36px);//48
+  }
+  .features__item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .features__item-title {
+    padding-top: rem(15px);
+  }
+  .features__item-desc{
+    margin-top: 10px;
+  }
+
+  .callback__title,
+  .callback__subtitle{
+    font-size: rem(36px);//48
+  }
+
+  .form__elem-input {
+    font-size: rem(22px);//18
+  }
+  .services__item{
+    width: 100%;
+  }
+  .services__title{
+    font-size: rem(36px);//48
+  }
+  .services__wrap-down {
+    margin-bottom: 25px;
+  }
+
+  .reviews__title{
+    font-size:rem(36px);//48
+  }
+  .reviews__slider-pic {
+    display: none;
+  }
+  .reviews__slider-text {
+    width: 95%;
+  }
+  .reviews__slider-controls{
+    margin-top: 55px;
+  }
+  .reviews__slider-title {
+    margin-top: 40px;
+    font-size:rem(22px);//30
+  }
+
+  .reviews__slider-descr {
+    font-size:rem(18px);//24
+  }
+
+  .reviews__slider-author{
+    font-size:rem(18px);//24
+    width: 95%;
+  }
+
+  .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    margin-right: 29px;
+  }
+  .shemework__title{
+    font-size:rem(36px);//48
+  }
+  .shemework__pic{
+    display: none;
+  }
+  .shemework__vertical-img{
+    width: 50%;
+    margin-bottom: 40px;//15
+  }
+  .shemework__img{
+    width: 30px;
+  }
+  .shemework__icon-mail,
+  .shemework__icon-computer{
+    left: 52%;
+  }
+  .shemework__icon-blank,
+  .shemework__icon-document{
+    right: 102%;
+  }
+  .shemework__icon-blank{
+    top: 3.5rem;
+  }
+
+  .shemework__icon-document{
+    top: 10.5rem;
+  }
+  .question__title{
+    font-size:rem(36px);//48
+  }
+  .map__bottom {
+    background-color: $yellow;
+  }
+  .map__contacts {
+    //margin-top: 252px;
+    width: 90% ;
+    margin: 252px auto;
+
+  }
+  .map__contacts-title{
+    font-size: rem(28px);//36
+  }
+  .map__addr-text, .map__tel-text, .map__mail-text{
+    font-size: rem(22px);//30
+  }
+  .map__addr-text {
+    width: 70%;
+  }
+
+  .form__input-name,
+  .form__input-tel{
+    width: 100%;
+    margin-top: 15px;
+  }
+  .form__input-submit{
+    width: 100%;
+
+  }
+  .form__submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 30px;
+  }
+  .footer__callback-btn{
+    font-size: rem(22px);//24
+  }
+
+}
+
+
+/* Для планшетов */
+@media (min-width: 544px) AND (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+
+  .logo{
+    width: 100%;
+    text-align: center;
+  }
+  .contacts {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+
+  .outsorcing__title,
+  .outsorcing__subtitle{
+    font-size: rem(48px);//60
+  }
+
+  .outsorcing__sale,
+  .outsorcing__sale-subtitle{
+    font-size:rem(36px);//48
+  }
+
+  .outsorcing__btn-link {
+    font-size: rem(20px);//24
+  }
+
+  .team__title{
+    font-size: rem(36px);//48
+  }
+
+  .features__title{
+    font-size: rem(36px);//48
+  }
+
+  .team__content-pic {
+    display: none;
+  }
+
+  .team__desc{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .team__content-pic {
+    display: none;
+  }
+
+  .features__item {
+    margin-bottom: 30px;
+  }
+  .features__item-title {
+    padding-top: rem(15px);
+  }
+  .features__item-desc{
+    margin-top: 10px;
+  }
+  .callback__title,
+  .callback__subtitle{
+    font-size: rem(36px);//48
+  }
+
+  .form__elem-input {
+    font-size: rem(22px);//18
+  }
+
+  .form__input-name,
+  .form__input-tel{
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: auto;
+  }
+  .form__input-submit{
+    width: 100%;
+  }
+  .form__submit {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .services__wrap-down {
+    margin-bottom: 25px;
+  }
+  .services__title{
+    font-size: rem(36px);//48
+  }
+
+
+  .reviews__slider-pic {
+    display: none;
+  }
+
+  .reviews__slider-text {
+    width: 95%;
+  }
+  .reviews__slider-title {
+    margin-top: 40px;
+    font-size:rem(22px);//30
+  }
+
+  .reviews__slider-descr {
+    font-size:rem(20px);//24
+  }
+
+  .reviews__slider-author{
+    font-size:rem(20px);//24
+    width: 95%;
+  }
+
+  .reviews__slider-controls{
+    margin-top: 55px;
+  }
+
+  .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    margin-right: 29px;
+  }
+  .shemework__title{
+    font-size:rem(36px);//48
+  }
+  .shemework__pic {
+    display: none;
+  }
+
+  .shemework__vertical{
+    margin-bottom: 40px;
+  }
+  .shemework__img{
+    width: 60px;
+  }
+  .shemework__vertical-img{
+    width: 50%;
+  }
+  .shemework__icon-mail,
+  .shemework__icon-computer{
+    left: 60%;
+  }
+  .shemework__icon-blank{
+    right: 102%;
+  }
+
+  .shemework__icon-document {
+    right: 102%;
+    bottom: 2.1875rem;
+  }
+
+  .shemework__icon-computer{
+    bottom: 8.125rem;
+  }
+  .question__title{
+    font-size:rem(36px);//48
+  }
+
+  .map__contacts {
+    margin-top: 252px;
+    width: 65% ;
+  }
+
+  .map__addr-text {
+    width: 75%;
+  }
+  .map__contacts-title{
+    font-size: rem(28px);//36
+  }
+  .map__addr-text, .map__tel-text, .map__mail-text{
+    font-size: rem(22px);//30
+  }
+  .footer__callback-btn{
+    font-size: rem(22px);//24
+  }
+  .footer__logo {
+    display: none;
+  }
+  .footer__callback {
+    width: 100%;
+  }
+  .footer__copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+/* Для планшетов и ноутов*/
+@media (min-width: 768px) AND (max-width: 991px) {
+  html {
+    font-size: 10px;
+  }
+  .contacts {
+    display: none;
+  }
+
+  .team__content-pic {
+    width: 330px;
+    height: 500px;
+  }
+  .features__item {
+    margin-bottom: 30px;
+  }
+  .features__item-title {
+    padding-top: rem(15px);
+  }
+  .features__item-desc{
+    margin-top: 10px;
+  }
+
+  .reviews__slider-text {
+    width: 66%;
+    margin-top: 79px;
+  }
+  .reviews__slider-title {
+    margin-top: 20px;
+  }
+  .reviews__slider-pic{
+    height: 200px;
+    width: 200px;
+  }
+
+  .shemework__vertical{
+    margin-bottom: 40px;
+  }
+  .shemework__icon-mail,
+  .shemework__icon-computer{
+    left: 137%;
+  }
+  .shemework__icon-blank {
+    right: 105%;
+  }
+  .shemework__icon-document{
+    right: 100%;
+  }
+  .shemework__pic{
+    display: none;
+  }
+  .shemework__icon-mail,
+  .shemework__icon-computer{
+    left: 65%;
+  }
+  .map__contacts {
+    margin-top: 200px;
+  }
+
+  .map__addr-text {
+    width: 75%;
+  }
+  .map__contacts-title{
+    font-size: rem(28px);//36
+  }
+  .footer__logo {
+    display: none;
+  }
+  .footer__callback {
+    width: 50%;
+  }
+
+  .footer__copyright{
+    width: 50%;
+    margin-top: 25px;
+  }
+  .form__elem-input {
+    font-size: rem(22px);//18
+  }
+
+}
+
+
+/*Для планшетов и компов с маленьким разрешением*/
+@media (min-width: 992px) AND (max-width: 1199px) {
+
+  html {
+    font-size: 14px;
+  }
+
+  .contacts {
+    display: none;
+  }
+
+  .features__item {
+    margin-bottom: 30px;
+  }
+  .features__item-title {
+    padding-top: rem(15px);
+  }
+  .features__item-desc{
+    margin-top: 10px;
+  }
+  .shemework__icon-mail,
+  .shemework__icon-computer{
+    left: 105%;
+  }
+  .shemework__icon-blank,
+  .shemework__icon-document{
+    right: 105%;
+  }
+  .map__contacts {
+    margin-top: 200px;
+  }
+  .map__addr-text {
+    width: 75%;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .footer__callback {
+    width: 50%;
+  }
+
+  .footer__copyright{
+    width: 50%;
+  }
+}
+
+
+
+
+/* Для компьютеров */
+@media (min-width: 1200px) {
+
+
+}
+
+/*======= end media ========*/
